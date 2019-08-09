@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IntelligentLock/Sites/ViewControllers/SiteViewController.m"
+            timestampString = "579770014.360612"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[SiteViewController viewDidLoad]_block_invoke"
+                  moduleName = "IntelligentLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orient/Desktop/%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AESDK/IntelligentLock/IntelligentLock/Sites/ViewControllers/SiteViewController.m"
+                  timestampString = "585474785.529442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__33-[SiteViewController viewDidLoad]_block_invoke_2"
+                  moduleName = "IntelligentLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/orient/Desktop/%E5%85%AC%E5%8F%B8%E9%A1%B9%E7%9B%AESDK/IntelligentLock/IntelligentLock/Sites/ViewControllers/SiteViewController.m"
+                  timestampString = "585474785.531859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

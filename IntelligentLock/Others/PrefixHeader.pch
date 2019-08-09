@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  IntelligentLock
+//
+//  Created by Orient on 2019/4/28.
+//  Copyright © 2019 Orient. All rights reserved.
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define COLOR_FOR_BACKGROUND       [UIColor colorWithRed:0.15 green:0.16 blue:0.18 alpha:1.00]//
+#define COLOR_FOR_MAIN             [UIColor colorWithRed:242/255.00 green:193/255.00 blue:68/255.00 alpha:1.00]
+#define SCREENWIDTH                ([[UIScreen mainScreen] bounds].size.width)
+#define SCREENHEIGHT               ([[UIScreen mainScreen] bounds].size.height)
+
+#define navigationBarAndStatusBarHeight  self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height
+#define tabBarHeight                    self.tabBarController.tabBar.frame.size.height
+
+#define COLOR_FOR_MAIN_BACKGROUND  [UIColor colorWithRed:38/255.00 green:41/255.00 blue:46/255.00 alpha:1.00]
+
+
+#define AL_Dispatch_Async_Main(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+#import "Masonry.h"
+#import "ShowHUD.h"
+#import "UIButton+BtnAnimation.h"
+#import "ALNetWorkingManager.h"
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Services</key>
+	<dict>
+		<key>User Login</key>
+		<dict>
+			<key>Failture Message</key>
+			<string>登录失败</string>
+			<key>Success Message</key>
+			<string>登录成功</string>
+			<key>Method</key>
+			<string>GET</string>
+		</dict>
+		<key>Site Data</key>
+		<dict>
+			<key>Method</key>
+			<string>GET</string>
+			<key>Success Message</key>
+			<string>获取数据成功</string>
+			<key>Failture Message</key>
+			<string>获取数据失败</string>
+			<key>Error Message</key>
+			<string>获取数据错误</string>
+			<key>Path</key>
+			<string>area/loadBtsLock/</string>
+		</dict>
+	</dict>
+	<key>Errors</key>
+	<dict>
+		<key>USER_PWD_ERROR</key>
+		<string>用户密码错误</string>
+		<key>USER_ERROR</key>
+		<string>用户不存在</string>
+		<key>UNKNOW_ERROR</key>
+		<string>未知错误</string>
+	</dict>
+	<key>Error Message</key>
+	<string>获取数据错误</string>
+	<key>Failture Message</key>
+	<string>获取数据失败</string>
+	<key>Success Message</key>
+	<string>获取数据成功</string>
+	<key>Process Message</key>
+	<string>正在获取数据</string>
+	<key>Sub_URL</key>
+	<string>http://112.74.134.118:9831/njalsmart/api/</string>
+	<key>Main_URL</key>
+	<string>http://120.24.224.128:9334/njalsmart/api/</string>
+</dict>
+</plist>
